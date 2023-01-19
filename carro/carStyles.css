@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&display=swap');
+
+* {
+    font-family: 'Francois One';
+
+}
+
+body {
+    margin: 0%;
+
+}
+
+.head {
+    background-color: rgb(30, 123, 210);
+    position: fixed;
+    width: 100%;
+    height: 7vh;
+    box-shadow: 0vh 1vh 1vh 1vh rgb(30, 123, 210);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cont {
+    height: 100vh;
+    width: 196.9vh;
+    top: 8vh;
+    background-image: url(img/car.jpg);
+    background-size: cover;
+
+
+}
+
+.foot {
+    width: 100%;
+    height: 6vh;
+    position: absolute;
+    top: 94%;
+    background-color: #000564;}
+
+.imgLogo {
+    width: 12vh;
+    height: 12vh;
+    margin: 1vh;
+
+}
+
+.pH {
+    color: azure;
+    position: absolute;
+    left: 50%;
+    font-size: 1vh;
+    transform: translate(-50%);
+}
+
+.imgCont {
+    width: 70vh;
+    margin-left: 11vh;
+    margin-top: 19vh;
+    border-top-left-radius: 10vh;
+    box-shadow: -1vh 0vh 3vh 0.1vh rgb(30, 123, 210);
+    border: 0vh solid rgba(30, 123, 210, 0.9);
+    border-bottom-left-radius: 10vh;
+}
+
+.secCont {
+    position: fixed;
+    background-color: aqua;
+    width: 209vh;
+    height: 1vh;
+
+}
+
+.btnCont {
+    background-color: rgb(219, 58, 18);
+    color: rgb(0, 0, 0);
+    border: none;
+    position: absolute;
+    top: 79vh;
+    box-shadow: 0vh 0.5vh 2vh 0.2vh rgb(0, 26, 255);
+    font-size: 1.9vh;
+    text-transform: uppercase;
+    padding: 1vh;
+    cursor: pointer;
+    width: 20vh;
+    left: 21vh;
+}
+
+.btnBuy {
+    background-color: rgb(93, 253, 0);
+    color: rgb(0, 0, 0);
+    border: 0.3px solid rgb(93, 253, 0);
+    box-shadow: 0vh 0.5vh 2vh 0.2vh rgba(72, 255, 0, 0);
+    font-size: 1.9vh;
+    border-top-left-radius: 50vh;
+    border-bottom-left-radius: 50vh;
+    text-transform: uppercase;
+    padding: 1vh;
+    width: 20vh;
+}
+
+.btnRent {
+    background-color: rgb(4 0 255 / 39%);
+    color: rgb(255 255 255);
+    position: absolute;
+    left: 42vh;
+    border: 0.3px solid rgb(4, 0, 255);
+    border-top-right-radius: 50vh;
+    border-bottom-right-radius: 50vh;
+    font-size: 1.9vh;
+    text-transform: uppercase;
+    padding: 1vh;
+    width: 20vh;
+}
+
+.artCont {
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 5vh;
+    border: 0.4vh solid  rgb(0, 0, 0);
+    position: fixed;
+    left: 81vh;
+    padding: 1vh;
+    top: 13.5vh;
+    width: 105vh;
+    height: 70vh;
+}
+
+.h1Art {
+    width: 14.2vh;
+    position: relative;
+    top: -10vh;
+    left: 7vh;
+    font-size: 5vh;
+    color: rgb(255, 255, 255);
+    text-align: left;
+
+}
+
+.divCar {
+    position: relative;
+    top: -13vh;
+}
+
+.secCar {
+    display: flex;
+    background-color: black;
+    border: 0.5vh solid rgb(30, 123, 210);
+    text-align: center;
+    margin: 1vh;
+    margin-left: 0.1vh;
+    border-radius: 4.5vh;
+    color: white;
+    height: 15vh;
+    padding-left: 13vh;
+    width: 91vh;
+    flex-direction: row;
+}
+
+.artCar {
+    margin: 1vh;
+    padding: 1vh;
+    font-size: 1.6vh;
+
+}
+.pcar2{
+    
+    width: 100vh;
+    font-size: 1.6vh;
+    height:1.3vh;
+    margin: 1.1vh;
+    top: 10vh;
+    left: 1vh;padding-bottom: 8vh;
+    padding: 0%;
+}
+.h1Car{
+    color: rgb(30, 123, 210);
+}
+
+.secCar2{
+    border: 0.3vh solid rgb(30, 123, 210);
+    color:white;
+    position: relative;
+    border-radius: 5vh;
+    height: 40vh;
+    padding: 1vh;
+    font-size: 1.6vh;
+    list-style: none;
+    border-top: none;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    
+}
+
+.h1Item{
+    background-color: rgba(0, 68, 255, 0.226);
+    text-align: center;
+    border-radius: 5vh;
+    color: white;
+    border: 0.2vh solid rgb(30, 123, 210);
+    font-size: 2.8vh;
+    border-bottom: none;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+ 
+}
+
+.secnav {
+    background-color: rgba(165, 42, 42, 0);
+    width: 37vh;
+    height: 4.5vh;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-30%);
+}
+.navegacao{
+    position: relative;
+  
+    left: 70%;
+    width: 45.1vh;
+    height: 8.9vh;
+    margin: 0%;
+    
+}
+
+.btnNav{
+    background-color: rgba(255, 255, 255, 0.11);
+    color: white;
+    box-shadow: 0vh 0vh 1vh 0.4vh rgb(133 158 255);    
+    font-size: 1.6vh;
+    cursor: pointer;
+    border: none;
+    border-radius: 1vh;
+    margin: 1vh;
+    width: 10vh;
+    padding: 0.9vh;
+    border: 0.1vh solid white;
+ 
+}
+.secFoot{
+    position: relative;
+    top: 0.1vh;
+    
+}
+.artFoot {
+    background-color: rgb(0 107 255);
+    float: right;
+    border-radius: 6vh;
+    border-top-right-radius: 0vh;
+    border-bottom-right-radius: 0vh;
+    width: 27.5vh;
+    height: 3.4vh;
+    padding-top: 2.5vh;
+    text-align: center;
+    font-size: 1.2vh;
+    color: white;
+}
+.pFoot{
+    color: white;
+    width: 20vh;
+    text-align: center;
+    font-size: 1.4vh;
+    left: 145vh;
+    position: absolute;
+}
+.titulo{
+    color: white;
+    width: 20vh;
+    left: 20vh;
+    position: absolute;
+    font-size: 3vh;
+}
+
